@@ -2,7 +2,6 @@ from ultralytics import YOLO
 from PIL import Image
 
 # YOLOv8 모델 로드
-MODEL_PATH = "keremberke/yolov8m-pokemon-classification"  # Hugging Face 모델 경로
 MODEL_PATH = "https://huggingface.co/keremberke/yolov8m-pokemon-classification"  # Hugging Face 모델 경로
 model = YOLO(MODEL_PATH)
 
